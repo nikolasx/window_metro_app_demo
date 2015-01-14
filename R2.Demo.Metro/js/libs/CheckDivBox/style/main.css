@@ -1,0 +1,47 @@
+﻿/*复选框右上角图片*/
+.right_top_img
+{   
+}
+
+/*复选框右上角图片-复选框选中状态*/
+.right_top_img_Selected
+{
+    background-image:url(../img/select.png)
+}
+
+/*普通选择项*/
+.CheckDivBox
+{
+    border-style:solid;
+    border-color:#313C47;
+    background-color:#313C47;
+}
+
+/*全选按钮*/
+.CheckDivSelectAll
+{
+    border-style:solid;
+    border-color:#313C47;
+    background-color:#313C47;
+}
+
+/*每个复选框的HOVER效果，效果在该类中添加*/
+.CheckDivBoxHover
+{
+    /*border:1px solid red;*/
+}
+
+/*每个复选框的点击选中后效果，效果在该类中添加*/
+.SelectedCheckDivBox 
+{
+    border-color:#488DE1;
+    background-color:#171C22;
+}
+
+/*全选按钮-点击选中后效果*/
+.AllSelectedDivBox
+{
+    border-color:#488DE1;
+    background-color:#171C22;
+}
+

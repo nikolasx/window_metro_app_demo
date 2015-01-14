@@ -1,0 +1,812 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LIXIONG</Machine>
+    <WindowsUser>lixiong1</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>R2MetroDemo</PackageIdentityName>
+    <IntermediateOutputPath>G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>B6CF65D96AB8FDEE6911580467177E198CF0E98DC52C9341E805BE3AF013C2BD</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>R2MetroDemo_1.0.0.1_neutral__nee4wrmb19ch2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>R2MetroDemo_nee4wrmb19ch2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>R2MetroDemo</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Air</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.1</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-01-13T01:29:00.343</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\appSet.css">
+      <PackagePath>css\appSet.css</PackagePath>
+      <Modified>2013-10-15T06:06:28.723</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\custom-icons.css">
+      <PackagePath>css\custom-icons.css</PackagePath>
+      <Modified>2013-10-14T07:35:24.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2013-11-26T02:26:11.371</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\disasterInfoDetail.css">
+      <PackagePath>css\disasterInfoDetail.css</PackagePath>
+      <Modified>2013-11-11T06:06:40.883</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\inputInfo.css">
+      <PackagePath>css\inputInfo.css</PackagePath>
+      <Modified>2013-11-14T13:31:55.239</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\pageControl.css">
+      <PackagePath>css\pageControl.css</PackagePath>
+      <Modified>2013-10-14T07:35:24.365</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\pageLayout.css">
+      <PackagePath>css\pageLayout.css</PackagePath>
+      <Modified>2013-10-14T07:35:24.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\queryInfo.css">
+      <PackagePath>css\queryInfo.css</PackagePath>
+      <Modified>2013-10-14T07:35:24.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\css\showInfo.css">
+      <PackagePath>css\showInfo.css</PackagePath>
+      <Modified>2013-11-08T08:13:53.203</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\compass\compass.css">
+      <PackagePath>html\compass\compass.css</PackagePath>
+      <Modified>2013-11-22T02:18:06.997</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoStatistics\disasterInfoStatistics.css">
+      <PackagePath>html\disasterInfoStatistics\disasterInfoStatistics.css</PackagePath>
+      <Modified>2013-11-05T07:24:47.287</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\historyPaint\historyPaint.css">
+      <PackagePath>html\historyPaint\historyPaint.css</PackagePath>
+      <Modified>2013-11-22T03:54:29.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\initPageContainer\initPage.css">
+      <PackagePath>html\initPageContainer\initPage.css</PackagePath>
+      <Modified>2012-04-02T12:08:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\mapHome\mapHome.css">
+      <PackagePath>html\mapHome\mapHome.css</PackagePath>
+      <Modified>2013-11-14T06:29:39.824</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\paint\paint.css">
+      <PackagePath>html\paint\paint.css</PackagePath>
+      <Modified>2013-11-18T04:09:35.963</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\tilesMenu\tilesMenu.css">
+      <PackagePath>html\tilesMenu\tilesMenu.css</PackagePath>
+      <Modified>2013-10-15T06:04:54.867</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\CheckDivBox\style\main.css">
+      <PackagePath>js\libs\CheckDivBox\style\main.css</PackagePath>
+      <Modified>2013-10-14T07:35:25.074</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\default.html">
+      <PackagePath>default.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.230</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\appSet.html">
+      <PackagePath>html\appSet.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\appSetPreview.html">
+      <PackagePath>html\appSetPreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.253</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\blankpage.html">
+      <PackagePath>html\blankpage.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.254</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\compass\compass.html">
+      <PackagePath>html\compass\compass.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoDetail.html">
+      <PackagePath>html\disasterInfoDetail.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoInput.html">
+      <PackagePath>html\disasterInfoInput.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.276</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoInputPreview.html">
+      <PackagePath>html\disasterInfoInputPreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.277</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoQuery.html">
+      <PackagePath>html\disasterInfoQuery.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.278</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoQueryPreview.html">
+      <PackagePath>html\disasterInfoQueryPreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.279</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoShow.html">
+      <PackagePath>html\disasterInfoShow.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.280</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoShowPreview.html">
+      <PackagePath>html\disasterInfoShowPreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoStatistics\disasterInfoStatistics.html">
+      <PackagePath>html\disasterInfoStatistics\disasterInfoStatistics.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\historyPaint\historyPaint.html">
+      <PackagePath>html\historyPaint\historyPaint.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\imageView.html">
+      <PackagePath>html\imageView.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.302</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\initPageContainer\initPage.html">
+      <PackagePath>html\initPageContainer\initPage.html</PackagePath>
+      <Modified>2015-01-13T06:50:38.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\mapHomePreview.html">
+      <PackagePath>html\mapHomePreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.323</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\mapHome\mapHome.html">
+      <PackagePath>html\mapHome\mapHome.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\menuNavigation.html">
+      <PackagePath>html\menuNavigation.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\menuPreview.html">
+      <PackagePath>html\menuPreview.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.325</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\mobilDemo.html">
+      <PackagePath>html\mobilDemo.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\paint\paint.html">
+      <PackagePath>html\paint\paint.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\singleNavgation.html">
+      <PackagePath>html\singleNavgation.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.353</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\testpage2.html">
+      <PackagePath>html\testpage2.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.354</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\tilesMenu\tilesMenu.html">
+      <PackagePath>html\tilesMenu\tilesMenu.html</PackagePath>
+      <Modified>2014-07-15T11:14:17.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\compass\compass.js">
+      <PackagePath>html\compass\compass.js</PackagePath>
+      <Modified>2013-12-03T09:33:33.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\disasterInfoStatistics\disasterInfoStatistics.js">
+      <PackagePath>html\disasterInfoStatistics\disasterInfoStatistics.js</PackagePath>
+      <Modified>2013-11-15T08:06:27.413</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\historyPaint\historyPaint.js">
+      <PackagePath>html\historyPaint\historyPaint.js</PackagePath>
+      <Modified>2013-11-26T07:28:14.753</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\initPageContainer\initPage.js">
+      <PackagePath>html\initPageContainer\initPage.js</PackagePath>
+      <Modified>2013-11-06T06:51:22.072</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\mapHome\mapHome.js">
+      <PackagePath>html\mapHome\mapHome.js</PackagePath>
+      <Modified>2013-12-04T01:29:35.290</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\paint\paint.js">
+      <PackagePath>html\paint\paint.js</PackagePath>
+      <Modified>2013-11-26T07:26:29.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\html\tilesMenu\tilesMenu.js">
+      <PackagePath>html\tilesMenu\tilesMenu.js</PackagePath>
+      <Modified>2013-11-21T01:37:16.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\appSet.js">
+      <PackagePath>js\customer\appSet.js</PackagePath>
+      <Modified>2013-11-12T11:22:01.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\BufferMap.js">
+      <PackagePath>js\customer\BufferMap.js</PackagePath>
+      <Modified>2013-12-02T08:00:49.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\data.js">
+      <PackagePath>js\customer\data.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.508</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\disasterInfoDetail.js">
+      <PackagePath>js\customer\disasterInfoDetail.js</PackagePath>
+      <Modified>2013-11-15T06:33:27.116</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\disasterInfoInput.js">
+      <PackagePath>js\customer\disasterInfoInput.js</PackagePath>
+      <Modified>2013-11-28T07:10:27.953</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\disasterInfoQuery.js">
+      <PackagePath>js\customer\disasterInfoQuery.js</PackagePath>
+      <Modified>2013-12-03T08:47:28.864</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\disasterInfoShow.js">
+      <PackagePath>js\customer\disasterInfoShow.js</PackagePath>
+      <Modified>2013-11-20T09:47:19.256</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\downloadWuhanMap.js">
+      <PackagePath>js\customer\downloadWuhanMap.js</PackagePath>
+      <Modified>2013-11-12T08:07:31.536</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\helper.js">
+      <PackagePath>js\customer\helper.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.532</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\imageView.js">
+      <PackagePath>js\customer\imageView.js</PackagePath>
+      <Modified>2013-11-15T06:39:14.645</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\indexDB.js">
+      <PackagePath>js\customer\indexDB.js</PackagePath>
+      <Modified>2014-09-16T02:29:07.070</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\menuNavigation.js">
+      <PackagePath>js\customer\menuNavigation.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.486</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\pageData.js">
+      <PackagePath>js\customer\pageData.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.487</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\singleNavgation.js">
+      <PackagePath>js\customer\singleNavgation.js</PackagePath>
+      <Modified>2013-10-14T07:37:26.060</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\customer\tempScript.js">
+      <PackagePath>js\customer\tempScript.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.517</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+      <Modified>2013-11-15T10:17:01.356</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\appBarHandlers.js">
+      <PackagePath>js\libs\appBarHandlers.js</PackagePath>
+      <Modified>2013-10-25T09:20:22.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\CheckDivBox\CheckDivBox.js">
+      <PackagePath>js\libs\CheckDivBox\CheckDivBox.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\customeDragForPinch.js">
+      <PackagePath>js\libs\customeDragForPinch.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.039</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\customeDragPan.js">
+      <PackagePath>js\libs\customeDragPan.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.055</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\global.js">
+      <PackagePath>js\libs\global.js</PackagePath>
+      <Modified>2013-11-27T09:33:04.513</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\highcharts.js">
+      <PackagePath>js\libs\highcharts.js</PackagePath>
+      <Modified>2013-10-14T07:42:19.702</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\jquery-1.7.1.min.js">
+      <PackagePath>js\libs\jquery-1.7.1.min.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.346</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\mobile-navigation.js">
+      <PackagePath>js\libs\mobile-navigation.js</PackagePath>
+      <Modified>2013-10-14T07:35:24.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\navigator.js">
+      <PackagePath>js\libs\navigator.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.042</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\OpenLayers.debug.js">
+      <PackagePath>js\libs\OpenLayers.debug.js</PackagePath>
+      <Modified>2013-11-29T02:00:49.582</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\OpenLayers.js">
+      <PackagePath>js\libs\OpenLayers.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\pageZoomControl.js">
+      <PackagePath>js\libs\pageZoomControl.js</PackagePath>
+      <Modified>2013-11-06T08:28:47.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\R2team_addLine.js">
+      <PackagePath>js\libs\R2team_addLine.js</PackagePath>
+      <Modified>2013-12-03T08:37:15.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\R2team_dynamicLineVector.js">
+      <PackagePath>js\libs\R2team_dynamicLineVector.js</PackagePath>
+      <Modified>2013-12-03T08:05:37.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\R2team_Measure.js">
+      <PackagePath>js\libs\R2team_Measure.js</PackagePath>
+      <Modified>2013-11-14T01:15:26.094</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\TileLayer.Metro.js">
+      <PackagePath>js\libs\TileLayer.Metro.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\zdclient.js">
+      <PackagePath>js\libs\zdclient.js</PackagePath>
+      <Modified>2013-10-14T07:35:25.071</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\05.png">
+      <PackagePath>images\05.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\09.png">
+      <PackagePath>images\09.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.454</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\11.png">
+      <PackagePath>images\11.png</PackagePath>
+      <Modified>2013-10-30T12:04:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\15.png">
+      <PackagePath>images\15.png</PackagePath>
+      <Modified>2013-11-21T01:22:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\16.png">
+      <PackagePath>images\16.png</PackagePath>
+      <Modified>2013-11-21T01:18:23.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\17.png">
+      <PackagePath>images\17.png</PackagePath>
+      <Modified>2013-11-21T01:22:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\22.png">
+      <PackagePath>images\22.png</PackagePath>
+      <Modified>2013-10-30T12:05:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\1-1.png">
+      <PackagePath>images\appbarIcon\1-1.png</PackagePath>
+      <Modified>2013-11-01T01:39:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\1.png">
+      <PackagePath>images\appbarIcon\1.png</PackagePath>
+      <Modified>2013-11-01T01:34:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\10-1.png">
+      <PackagePath>images\appbarIcon\10-1.png</PackagePath>
+      <Modified>2013-11-05T02:52:05.389</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\10.png">
+      <PackagePath>images\appbarIcon\10.png</PackagePath>
+      <Modified>2013-11-01T02:04:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\11-1.png">
+      <PackagePath>images\appbarIcon\11-1.png</PackagePath>
+      <Modified>2013-11-05T02:53:20.010</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\11.png">
+      <PackagePath>images\appbarIcon\11.png</PackagePath>
+      <Modified>2013-11-01T02:05:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\12-1.png">
+      <PackagePath>images\appbarIcon\12-1.png</PackagePath>
+      <Modified>2013-11-05T02:53:37.355</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\12.png">
+      <PackagePath>images\appbarIcon\12.png</PackagePath>
+      <Modified>2013-11-01T02:06:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\13-1.png">
+      <PackagePath>images\appbarIcon\13-1.png</PackagePath>
+      <Modified>2013-11-05T02:53:51.141</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\13.png">
+      <PackagePath>images\appbarIcon\13.png</PackagePath>
+      <Modified>2013-11-01T02:07:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\14-1.png">
+      <PackagePath>images\appbarIcon\14-1.png</PackagePath>
+      <Modified>2013-11-05T02:54:04.798</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\14.png">
+      <PackagePath>images\appbarIcon\14.png</PackagePath>
+      <Modified>2013-11-01T02:08:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\15-1.png">
+      <PackagePath>images\appbarIcon\15-1.png</PackagePath>
+      <Modified>2013-11-05T02:54:19.367</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\15.png">
+      <PackagePath>images\appbarIcon\15.png</PackagePath>
+      <Modified>2013-11-01T02:09:51.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\16-1.png">
+      <PackagePath>images\appbarIcon\16-1.png</PackagePath>
+      <Modified>2013-11-05T02:54:31.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\16.png">
+      <PackagePath>images\appbarIcon\16.png</PackagePath>
+      <Modified>2013-11-01T02:25:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\17.png">
+      <PackagePath>images\appbarIcon\17.png</PackagePath>
+      <Modified>2013-11-20T07:02:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\18.png">
+      <PackagePath>images\appbarIcon\18.png</PackagePath>
+      <Modified>2013-11-20T07:01:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\2-1.png">
+      <PackagePath>images\appbarIcon\2-1.png</PackagePath>
+      <Modified>2013-11-01T01:38:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\2.png">
+      <PackagePath>images\appbarIcon\2.png</PackagePath>
+      <Modified>2013-11-01T01:35:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\3-1.png">
+      <PackagePath>images\appbarIcon\3-1.png</PackagePath>
+      <Modified>2013-11-01T01:38:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\3.png">
+      <PackagePath>images\appbarIcon\3.png</PackagePath>
+      <Modified>2013-11-01T01:35:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\4-1.png">
+      <PackagePath>images\appbarIcon\4-1.png</PackagePath>
+      <Modified>2013-11-01T01:38:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\4.png">
+      <PackagePath>images\appbarIcon\4.png</PackagePath>
+      <Modified>2013-11-01T01:35:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\5-1.png">
+      <PackagePath>images\appbarIcon\5-1.png</PackagePath>
+      <Modified>2013-11-01T01:38:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\5.png">
+      <PackagePath>images\appbarIcon\5.png</PackagePath>
+      <Modified>2013-11-01T01:36:13.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\6-1.png">
+      <PackagePath>images\appbarIcon\6-1.png</PackagePath>
+      <Modified>2013-11-01T01:37:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\6.png">
+      <PackagePath>images\appbarIcon\6.png</PackagePath>
+      <Modified>2013-11-01T01:36:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\7.png">
+      <PackagePath>images\appbarIcon\7.png</PackagePath>
+      <Modified>2013-11-01T01:37:03.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\8.png">
+      <PackagePath>images\appbarIcon\8.png</PackagePath>
+      <Modified>2013-11-01T01:37:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\9-1.png">
+      <PackagePath>images\appbarIcon\9-1.png</PackagePath>
+      <Modified>2013-11-05T02:51:38.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\appbarIcon\9.png">
+      <PackagePath>images\appbarIcon\9.png</PackagePath>
+      <Modified>2013-11-01T02:00:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\back.png">
+      <PackagePath>images\back.png</PackagePath>
+      <Modified>2013-10-30T06:07:23.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\bigpreview.png">
+      <PackagePath>images\bigpreview.png</PackagePath>
+      <Modified>2013-11-14T01:39:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\blueflag.png">
+      <PackagePath>images\blueflag.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.380</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\cameral.png">
+      <PackagePath>images\cameral.png</PackagePath>
+      <Modified>2013-11-14T08:31:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\close.png">
+      <PackagePath>images\close.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.372</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\fullMap.png">
+      <PackagePath>images\fullMap.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.231</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\02-1.png">
+      <PackagePath>images\mapMoreControls\02-1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\02.png">
+      <PackagePath>images\mapMoreControls\02.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.238</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\021.png">
+      <PackagePath>images\mapMoreControls\021.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.244</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\03-1.png">
+      <PackagePath>images\mapMoreControls\03-1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\03.png">
+      <PackagePath>images\mapMoreControls\03.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.262</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\031.png">
+      <PackagePath>images\mapMoreControls\031.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.264</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\04-1.png">
+      <PackagePath>images\mapMoreControls\04-1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\04.png">
+      <PackagePath>images\mapMoreControls\04.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.266</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\05.png">
+      <PackagePath>images\mapMoreControls\05.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.269</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\06.png">
+      <PackagePath>images\mapMoreControls\06.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.273</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\13.png">
+      <PackagePath>images\mapMoreControls\13.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.267</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\accept.contrast-black.png">
+      <PackagePath>images\mapMoreControls\accept.contrast-black.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.275</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\appbar_maphome\maphome-footicon.png">
+      <PackagePath>images\mapMoreControls\appbar_maphome\maphome-footicon.png</PackagePath>
+      <Modified>2013-10-28T09:07:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\locked.png">
+      <PackagePath>images\mapMoreControls\locked.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.242</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\maphome-footicon.png">
+      <PackagePath>images\mapMoreControls\maphome-footicon.png</PackagePath>
+      <Modified>2013-10-28T09:07:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\mapMoreControls\unlocked.png">
+      <PackagePath>images\mapMoreControls\unlocked.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.271</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\marker-blue.png">
+      <PackagePath>images\marker-blue.png</PackagePath>
+      <Modified>2006-10-01T17:03:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\marker-gold.png">
+      <PackagePath>images\marker-gold.png</PackagePath>
+      <Modified>2006-10-01T17:03:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\marker-green.png">
+      <PackagePath>images\marker-green.png</PackagePath>
+      <Modified>2006-10-01T17:03:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\marker.png">
+      <PackagePath>images\marker.png</PackagePath>
+      <Modified>2006-05-26T03:33:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\noNetwork.png">
+      <PackagePath>images\noNetwork.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\paint.png">
+      <PackagePath>images\paint.png</PackagePath>
+      <Modified>2013-11-14T08:32:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\paintBackground.png">
+      <PackagePath>images\paintBackground.png</PackagePath>
+      <Modified>2013-11-18T03:57:23.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\photoIcon.png">
+      <PackagePath>images\photoIcon.png</PackagePath>
+      <Modified>2013-10-22T07:25:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\previewimg.png">
+      <PackagePath>images\previewimg.png</PackagePath>
+      <Modified>2013-11-08T03:30:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\pinch_input.png">
+      <PackagePath>images\preview\pinch_input.png</PackagePath>
+      <Modified>2013-11-29T06:44:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\pinch_sezo.png">
+      <PackagePath>images\preview\pinch_sezo.png</PackagePath>
+      <Modified>2013-11-29T03:44:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\pinch_sezo1.png">
+      <PackagePath>images\preview\pinch_sezo1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\press_and_hold.png">
+      <PackagePath>images\preview\press_and_hold.png</PackagePath>
+      <Modified>2013-11-29T06:44:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\press_and_hold1.png">
+      <PackagePath>images\preview\press_and_hold1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.137</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\rotate.png">
+      <PackagePath>images\preview\rotate.png</PackagePath>
+      <Modified>2013-11-29T06:43:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\rotate1.png">
+      <PackagePath>images\preview\rotate1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.124</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\tap.png">
+      <PackagePath>images\preview\tap.png</PackagePath>
+      <Modified>2013-11-29T06:43:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\preview\tap1.png">
+      <PackagePath>images\preview\tap1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.139</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\R2TeameLogo.png">
+      <PackagePath>images\R2TeameLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-21T04:12:58.378</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\R2TeamLogoWidth.png">
+      <PackagePath>images\R2TeamLogoWidth.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-21T04:12:58.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\R2TeamSplashscreen.png">
+      <PackagePath>images\R2TeamSplashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-21T04:12:58.370</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\R2TeamSplashscreen1.png">
+      <PackagePath>images\R2TeamSplashscreen1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.450</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\redflag.png">
+      <PackagePath>images\redflag.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-21T04:12:58.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\smallpreview.png">
+      <PackagePath>images\smallpreview.png</PackagePath>
+      <Modified>2013-11-14T01:45:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\splashscreen21.png">
+      <PackagePath>images\splashscreen21.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.122</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-10-21T04:12:58.376</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\06.png">
+      <PackagePath>images\tilesMenu\06.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\07.png">
+      <PackagePath>images\tilesMenu\07.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.399</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\08.png">
+      <PackagePath>images\tilesMenu\08.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.403</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\10.png">
+      <PackagePath>images\tilesMenu\10.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.386</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\11.png">
+      <PackagePath>images\tilesMenu\11.png</PackagePath>
+      <Modified>2013-11-15T03:10:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\12.png">
+      <PackagePath>images\tilesMenu\12.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.392</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\fzgh1.png">
+      <PackagePath>images\tilesMenu\fzgh1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.383</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\qfjc.png">
+      <PackagePath>images\tilesMenu\qfjc.png</PackagePath>
+      <Modified>2013-11-22T01:44:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\qfjc1 %282%29.png">
+      <PackagePath>images\tilesMenu\qfjc1 %282%29.png</PackagePath>
+      <Modified>2013-11-21T12:30:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\qfjc1.png">
+      <PackagePath>images\tilesMenu\qfjc1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.396</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\qftx.png">
+      <PackagePath>images\tilesMenu\qftx.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.394</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\sjbb.png">
+      <PackagePath>images\tilesMenu\sjbb.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\yjdclr.png">
+      <PackagePath>images\tilesMenu\yjdclr.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.404</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\yjzj.png">
+      <PackagePath>images\tilesMenu\yjzj.png</PackagePath>
+      <Modified>2013-11-21T12:19:45.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\yjzj1.png">
+      <PackagePath>images\tilesMenu\yjzj1.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.401</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\tilesMenu\zlgc.png">
+      <PackagePath>images\tilesMenu\zlgc.png</PackagePath>
+      <Modified>2013-10-21T04:12:58.385</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\js\libs\CheckDivBox\img\select.png">
+      <PackagePath>js\libs\CheckDivBox\img\select.png</PackagePath>
+      <Modified>2013-10-14T07:35:25.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\flashmark.gif">
+      <PackagePath>images\flashmark.gif</PackagePath>
+      <Modified>2013-12-04T01:01:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\flashmark1.gif">
+      <PackagePath>images\flashmark1.gif</PackagePath>
+      <Modified>2013-11-18T07:54:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\images\queryMap.jpg">
+      <PackagePath>images\queryMap.jpg</PackagePath>
+      <Modified>2013-10-21T04:12:58.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-01-13T01:28:59.671</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.9200.20512</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.9200.20512</FrameworkIdentity>
+      <AppxLocation>C:\Program Files\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

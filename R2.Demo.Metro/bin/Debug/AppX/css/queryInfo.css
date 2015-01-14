@@ -1,0 +1,207 @@
+﻿body {
+
+}
+.main {
+    width:100%;
+    height:100%;
+}
+.titlearea {
+    margin-top:10px;
+}
+#queryHead {
+    width:100%;
+    margin-top:25px;
+}
+#queryContainer {
+    width:96%;
+    margin:0 auto;
+    height:80%;
+}
+/*左边，查询条件*/
+#queryContainer .left {
+    float:left;
+    width:27%;
+    height:100%;
+    margin-left:20px;
+}
+/*街道和灾害类型*/
+#changeCart, #drawType {
+    width:100%;
+    margin-top:20px;
+}
+#changeCartTitle, #drawTypeTitle {
+    height:30px;
+    margin-top:0px;
+    font-size:23px;
+}
+.changeCartTitleIte {
+    float:left;
+    margin-right:15px;
+}
+.changeCartTitleItems {
+    cursor:pointer;
+}
+.SetSelectionSelected {
+}
+#changeCartContent {
+    height:400px;
+    width:100%;
+    margin-top:20px;
+}
+.changeCartContent {
+    height:100%;
+    width:100%;
+    display:none;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+.changeCartShow {
+     display:block;
+}
+
+/*范围限定*/
+#drawTypeContent {
+     height:40px;
+     width:100%;
+     margin-top:20px;
+}
+.drawTypeItem {
+     float:left;
+     margin-right:10px;
+     width:107px;
+     background-color:#444899;
+     height:40px;
+     font-size:22px;
+     text-align:center;
+     line-height:40px;
+}
+
+#queryDisInfo {
+    color:#FF9600;
+    margin-top:20px;
+    font-size:30px;
+    float:right;
+    width:100px;
+    height:40px;
+    cursor:pointer;
+}
+#queryDisInfo:hover {
+    
+}
+
+/*右边，地图*/
+#queryContainer .right {
+    float:right;
+    width:70%;
+    margin-left:15px;
+    height:95%;
+}
+#queryMap {
+    margin-top:20px;
+    width:97%;
+    height:600px;
+    border:7px solid #3A4651;
+}
+.changeCartTitleSelec {
+    color:#6D7175;
+    font-size:22px;
+}
+.drawTypeSelected {
+    background-color:#313C47;
+    color:#F2CF90;
+}
+#lockQueryMap {
+    position:relative;
+    left:7px;
+    z-index: 900;
+    height: 600px;
+    background-color: #cccbed;
+    opacity: 0;
+    visibility: visible;
+    width:100%;
+}
+#lockState2 {
+     float:right;
+     margin-right:20px;
+     margin-top:30px;
+     cursor:pointer;
+     width:38px;
+     height:38px;
+     background:url(../../images/mapMoreControls/05.png) 0 0 no-repeat;
+}
+#mengban {
+    display:none;
+    margin-top:20px;
+    position:relative;
+    height:560px;
+}
+#searchPart {
+    font-size:23px;
+}
+.disasterShowInf {
+    height:115px; 
+    width:98%; 
+    margin-top:17px; 
+    color:white; 
+}
+.disasterSelected {
+    border:3px solid #488DE1;
+}
+.disasterUnSelected {
+    border:3px solid white;
+}
+.right_top_img
+{   
+}
+.right_top_img_Selected
+{
+    background-image:url(../img/select.png);
+    background-repeat:no-repeat;
+}
+.myItem
+{
+    height:90px;
+    width: 92%;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: auto;
+    -ms-text-overflow: ellipsis; 
+    border: solid 2px rgba(162,188,205, 0.5);
+}
+
+/* CSS applied to the ListView */
+#listView
+{
+    height: 500px;
+    width: 100%;
+    padding: 4px;
+}
+.DisasterInformation {
+    margin-top:20px;
+}
+
+
+/* Template for items in the ListView */   
+.mediumListIconTextItem
+{
+    height: 110px;
+    padding: 5px;
+    overflow: hidden;
+    display: -ms-grid;
+}
+
+    
+/* CSS applied to the ListView */
+#listView
+{
+    height: 520px;
+    width: 100%;
+    padding: 10px;
+    
+}
+.mediumListIconTextTemplateItem {
+    width:320px;
+    height:110px;
+    padding-left:20px;
+    padding-top:10px;
+}

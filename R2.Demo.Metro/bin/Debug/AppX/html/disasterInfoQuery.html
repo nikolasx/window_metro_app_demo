@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="../js/libs/jquery-1.7.1.min.js"></script>
+    <script src="../js/libs/OpenLayers.js"></script>
+    <script src="../js/libs/zdclient.js"></script>
+    <script src="../js/libs/TileLayer.Metro.js"></script>
+    <script src="../js/libs/customeDragForPinch.js"></script>
+    <script src="../js/libs/customeDragPan.js"></script>
+    <script src="../js/libs/CheckDivBox/CheckDivBox.js"></script>
+    <script src="../js/customer/indexDB.js"></script>
+    <script src="../js/customer/appSet.js"></script>
+    <script src="../js/libs/R2team_addLine.js"></script>
+    <script src="../js/customer/disasterInfoQuery.js"></script>
+    <link href="../css/queryInfo.css" rel="stylesheet" />
+    <link href="../js/libs/CheckDivBox/style/main.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="main">
+        <div id="queryHead">
+            <div class="tilesMenu fragment" style="cursor:pointer; width:15%;" id="back">
+                <header aria-label="Header content" role="banner">
+                    <h2 class="titlearea win-type-ellipsis">
+                        <img src="../images/05.png" />
+                        <span style="font-size:36px;margin-left:11px">查询显示</span>
+                    </h2>
+                </header>
+            </div>
+        </div>
+        <div id="queryContainer">
+                <div class="left" id="choice" style=" display:block;">
+                <div id="changeCart">
+                    <div id="changeCartTitle">
+                        <div class="changeCartTitleIte changeCartTitleItems ">街道</div>
+                        <div class="changeCartTitleIte">|</div>
+                        <div class="changeCartTitleIte changeCartTitleItems changeCartTitleSelec">灾害类型</div>
+                    </div>
+                    <div id="changeCartContent">
+                        <div class="changeCartContent changeCartShow">
+                            <div id="streetContent"></div>
+                        </div>
+                        <div class="changeCartContent">
+                            <div id="disasterType"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="drawType">
+                    <div id="drawTypeTitle">范围限定</div>
+                    <div id="drawTypeContent">
+                        <div class="drawTypeItem" id="drawControlRegularPolygo">拉框</div>
+                        <div class="drawTypeItem" id="drawControlCircle">画圆</div>
+                        <div class="drawTypeItem drawTypeSelected" id="noneDrawType">无选择</div>
+                    </div>
+                </div>
+                <div id="queryDisInfo">查&nbsp;&nbsp;询</div>
+            </div>
+            <div class="left" id="mengban">
+                <div id="searchPart">
+                    <div style=" float:left;">检&nbsp;&nbsp;索&nbsp;&nbsp;<input type="text" style=" background-color:#313C47; border:1px solid #313C47; height:30px; width:150px;color:#ffffff;" id="input"/>&nbsp;&nbsp;</div><div id="count" style=" float:left; color:#65696D;"></div>
+                </div>
+                <!-- Template -->
+
+        <!-- Note the 'loadingBehavior', 'pagesToLoad', 'automaticallyLoadPages', and 'pagesToLoadThreshold' properties-->
+                
+                 <div id="mediumListIconTextTemplate" data-win-control="WinJS.Binding.Template">
+           
+                <div  data-win-bind="style.background: color" class="mediumListIconTextTemplateItem">
+                <h2 data-win-bind="innerText: disType"></h2>
+                <table>
+                    <tr>
+                        <td>
+                            威胁人口：<span data-win-bind="innerText: pop" class="DisasterInformation"></span>人
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;状态：<span data-win-bind="innerText: state" class="DisasterInformation"></span><br />   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            县名：<span data-win-bind="innerText: xianming" class="DisasterInformation"></span>
+                        </td>
+                        <td>
+                            &nbsp;&nbsp;&nbsp;编号：<span data-win-bind="innerText: bianhao" class="DisasterInformation"></span>   
+                        </td>
+                    </tr>
+                </table>
+                </div>
+            
+        </div>
+
+            <!-- Note the 'selectionMode' property-->
+            <div id="listView"
+                data-win-control="WinJS.UI.ListView" 
+                data-win-options="{ 
+                    itemTemplate: mediumListIconTextTemplate, 
+                    selectionMode: 'single', 
+                    tapBehavior: 'directSelect', 
+                    layout: { type: WinJS.UI.ListLayout } 
+                }"
+            ></div>
+
+            <!-- Sets up the 'detail pane' of the master / detail -->
+            </div>
+
+            <!--右侧地图-->
+            <div class="right">
+                <div id="queryMap"></div>
+                <div id="lockQueryMap"></div>
+            </div>
+        </div>
+    </div>
+    <!--应用栏-->
+    <div id="QueryAppBar" data-win-control="WinJS.UI.AppBar" data-win-options="" style="border-style:solid; border-color:white;background-color:#0b4f88;">
+        <button id="btnNearDis" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'点击查询',icon:'url(images/mapMoreControls/021.png)',section:'selection',tooltip:'点击查看附近灾害点',extraClass:'forlook'}"></button>
+        <button id="btnQueryGPS" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'当前位置查询',icon:'url(images/appbarIcon/14.png)',section:'selection',tooltip:'定位当前位置的灾害点',extraClass:'gpslook'}"></button>
+    </div>
+
+</body>
+</html>
+

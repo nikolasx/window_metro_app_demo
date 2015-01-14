@@ -1,0 +1,64 @@
+﻿
+#HPhead {
+    width:500px;
+    height:90px;
+}
+#HPheadIcon {
+    width:11px;
+    height:17px;
+    background-image:url(../../images/05.png);
+    margin-top:45px;
+    margin-left:22px;
+    float:left;
+}
+#HPheadTitle {
+    height:36px;
+    width:400px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float:left;
+}
+#HPcontent {
+    width:1250px;
+    height:550px;
+    margin-left:55px;
+    margin-top:20px;
+    background-color:#3a4651;
+}
+#HPMax {
+    display:none;
+    width:1226px;
+    height:520px;
+    margin-left:55px;
+    margin-top:50px;
+    border:2px solid grey;
+    background-color:#ffffff;
+    background-image:url(../../images/paintBackground.png);
+}
+
+.hpbox {
+    width:250px;
+    height:220px;
+    float:left;
+    margin-left:50px;
+    margin-top:40px;
+}
+.hpimgbox {
+    width:250px;
+    height:180px;
+    /*border:4px solid #6b747d;*/
+}
+.hpimg {
+    width:230px;
+    height:160px;
+    margin:10px;
+}
+.hpname {
+    width:250px;
+    height:40px;
+    font-size:20px;
+    color:#ffffff;
+    line-height:40px;
+    text-align:center;
+}

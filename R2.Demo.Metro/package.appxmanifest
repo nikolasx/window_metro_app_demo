@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="R2MetroDemo" Version="1.0.0.1" Publisher="CN=Air" />
+  <Properties>
+    <DisplayName>R2MetroDemo</DisplayName>
+    <PublisherDisplayName>Air</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="MetroStyleDemo" Logo="images\R2TeameLogo.png" SmallLogo="images\smalllogo.png" Description="A demo for Metro Style App created by R2Team" ForegroundText="light" BackgroundColor="#0098AB">
+        <DefaultTile WideLogo="images\R2TeamLogoWidth.png" ShowName="noLogos" />
+        <SplashScreen Image="images\R2TeamSplashscreen.png" BackgroundColor="#0098AB" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="videosLibrary" />
+    <Capability Name="removableStorage" />
+    <Capability Name="picturesLibrary" />
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="webcam" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="location" />
+  </Capabilities>
+</Package>

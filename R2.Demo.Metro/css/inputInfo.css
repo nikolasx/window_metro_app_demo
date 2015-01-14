@@ -1,0 +1,459 @@
+﻿#infoInputHead {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#infoInputContainer {
+    width: 96%;
+    margin: 0 auto;
+}
+
+    #infoInputContainer .left {
+        float: left;
+        width: 30%;
+        height: 100%;
+        margin-left: 21px;
+    }
+ul {
+    height:510px;
+    overflow:scroll;
+   
+}
+
+    #infoInputContainer .right {
+        float: right;
+        width: 67%;
+        margin-left: 15px;
+        height: 600px;
+    }
+
+#infoInputBottom {
+    width: 500px;
+    margin-right: -50px;
+    float: right;
+}
+
+.infoInputButton {
+    width: 120px;
+    height: 60px;
+    font-size: 36px;
+    margin-right: 10px;
+    float: right;
+}
+
+.infoInputButtonClick {
+    color: #F76F01;
+}
+
+#zqsbInputMsgBackground {
+    position: relative;
+    left: -27px;
+    top: -79px;
+    width: 1366px;
+    height: 768px;
+    background-color: black;
+    opacity: 0.65;
+    z-index: 998;
+    display: none;
+}
+
+#zqsbInputMsgShowBox {
+    width: 1366px;
+    height: 360px;
+    position: relative;
+    left: -28px;
+    top: -650px;
+    z-index: 999;
+    background-color: #0098AB;
+    opacity: 1 !important;
+    display: none;
+    /*-ms-transition: all 1s ease;
+    -ms-transform-origin: 100% 60%;*/
+    /*-ms-transform-style: preserve-3d;*/
+    /*transform:rotateX(180deg);
+    transform-origin:center;
+    transform-style:flat;
+    backface-visibility:visible;*/
+    
+}
+
+    /*#zqsbInputMsgShowBox #zqsbInfoBoxPage1 {
+        backface-visibility: visible;
+    }
+
+    #zqsbInputMsgShowBox #zqsbInfoBoxPage2 {
+        backface-visibility: visible;
+        transform: rotateY(180deg);
+    }*/
+
+.zqsbInfoBoxPage {
+    width: 100%;
+    height: 360px;
+    display: none;
+}
+
+#zqsbInfoBoxP1TiSHI {
+    position: relative;
+    left: 300px;
+    top: 30px;
+    width: 900px;
+    height: 120px;
+    font-size: 32px;
+    line-height: 120px;
+}
+#zqsbInfoBoxP2TiSHI {
+    position: relative;
+    left: 200px;
+    top: 30px;
+    width: 900px;
+    height: 240px;
+    font-size: 32px;
+    line-height: 120px;
+}
+
+#zqsbInfoBoxP1OK {
+    position: relative;
+    left: 550px;
+    top: 60px;
+    width: 120px;
+    height: 50px;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#zqsbInfoBoxP1CANCEL {
+    position: relative;
+    left: 750px;
+    top: 4px;
+    width: 120px;
+    height: 50px;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    
+}
+
+#zqsbInfoBoxP2CLOSE {
+    position: relative;
+    left: 1000px;
+    top: 30px;
+    width: 120px;
+    height: 50px;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.zqsbInfoBoxButton {
+    color: white;
+    border: 3px solid white;
+}
+
+.zqsbInfoBoxButtonClicked {
+    color: #FF9D00;
+    border: 3px solid #FF9D00;
+}
+
+
+.inputInfoTile {
+    font-size: 23px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#inputShowBoxTitle {
+    float:left;
+}
+#inputCameralIcon {
+    float:left;
+    width:39px;
+    height:30px;
+    margin-top: 25px;
+    margin-left:650px;
+    background-image:url(../images/cameral.png);
+}
+#inputpaintIcon {
+    float:left;
+    width:39px;
+    height:30px;
+    margin-top: 25px;
+    margin-left:30px;
+    background-image:url(../images/paint.png);
+}
+
+.infoItemsName {
+    float: left;
+}
+
+.infoItemsImg {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 11px;
+    height: 17px;
+    background-image: url(../images/09.png);
+}
+
+.infoItemsText {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+ul li {
+    height: 59px;
+    width: 95%;
+    margin-bottom: 13px;
+}
+
+.inputInfoItem {
+    background-color: #313C47;
+}
+
+.selectInfoItem {
+    background-color: #4A4FA5;
+}
+
+.infoItemsName {
+    line-height: 55px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#zhinfoInputContainer {
+    background-color: #313C47;
+    width: 100%;
+    height: 85%;
+    overflow: hidden;
+}
+
+.zhInfoContainerChildren {
+    display: none;
+}
+
+.iAmSelectedzhInfoContainerChildren {
+    display: block;
+}
+
+.zhPositionInfo, .zhTypeInfo, .zhGradeInfo, .zhScaleInfo, .zhPeopleInfo, .zhEcnomicInfo,.zhPhotoInfo {
+    width: 100%;
+}
+
+.zhPositionInfoTitle, .zhTypeInfoTitle, .zhGradeInfoTitle, .zhScaleInfoTitle, .zhPeopleInfoTitle, .zhEcnomicInfoTitle,.zhPhotoInfoTitle {
+    width: 200px;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.zhPositionInfoCon, .zhTimeInfoCon, .zhTypeInfoCon, .zhGradeInfoCon, .zhScaleInfoCon, .zhPeopleInfoCon, .zhEcnomicInfoCon,.zhPhotoInfoCon {
+    width: 100%;
+}
+
+/*摄像头点击按钮*/
+#cameraIcon {
+    width:115px;
+    height:36px;
+    margin:15px 0px 0px 20px;
+    text-align:center;
+    line-height:36px;
+    font-size:16px;
+    border:3px solid #488DE1;
+    float:left;
+}
+#getZhImgFromFile {
+    width:164px;
+    height:36px;
+    margin:15px 0px 0px 30px;
+    text-align:center;
+    line-height:36px;
+    font-size:16px;
+    border:3px solid #488DE1;
+    float:left;
+}
+
+#zhPreviewImgContainer {
+    width:768px;
+    height:370px;
+    float:left;
+    margin:20px 0px 0px 85px;
+    overflow-y:auto;
+}
+.zhPreviewBox {
+    width:200px;
+    height:185px;
+    float:left;
+    margin-right:56px;
+}
+.zhPreviewImg {
+    width:200px;
+    height:146px;
+    border:0px solid grey;
+    padding:0px;
+}
+.zhPreviewDelete {
+    width:164px;
+    height:38px;
+    color:#ff7200;
+    display:none;
+}
+/*#zhPreviewImgBox {
+    width:90%;
+    height:200px;
+    float:left;
+    margin:50px 0px 0px 55px;
+}
+.zhPreviewImg {
+    width:30%;
+    height:200px;
+    float:left;
+    margin:0 20px 0 0;
+    border:1px solid grey;
+    padding:1px;
+}
+#preImgDeleteBox {
+    width:90%;
+    height:30px;
+    float:left;
+    margin:20px 0px 0px 55px;
+}
+.preImgDel {
+    width:30%;
+    height:20px;
+    float:left;
+    margin:0 20px 0 0;
+}
+.preImgDelete {
+    width:40px;
+    height:20px;
+    margin:auto;
+    display:none;
+}*/
+
+
+
+.zhTimeInfoCon {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 500px;
+    height: 60px;
+}
+
+    .zhTimeInfoCon #zhTimeInfoConChildren {
+        margin-top: 0px;
+        margin-left: -30px;
+    }
+
+#zhTimeInfoConChildren *[class^="win-datepicker"] {
+    border: 3px solid #488DE1;
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    font-size: 23px;
+    color: white;
+    background-color: #313C47;
+}
+
+    #zhTimeInfoConChildren *[class^="win-datepicker"] ::selection {
+        background-color: #488DE1 !important;
+    }
+
+    #zhTimeInfoConChildren *[class^="win-datepicker"] ::before {
+        background-color: #488DE1 !important;
+    }
+
+.zhPositionInfoConChildren {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    width: 15%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 3px solid #488DE1;
+}
+
+.zhPositionInfoConXZChildren, .zhPositionInfoConGroupChildren {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    width: 15%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 3px solid #488DE1;
+    float: left;
+}
+
+.zhPositionInfoConVChildren {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    width: 15%;
+    height: 35px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 3px solid #488DE1;
+    float: left;
+    display: none;
+}
+
+.itemSelected {
+    background-color: #488DE1;
+}
+
+.zhTypeInfoConChildren {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 3px solid #488DE1;
+    float: left;
+}
+
+.zhGradeInfoConChildren, .zhScaleInfoConChildren {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    width: 25%;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: 45px;
+    border: 3px solid #488DE1;
+    float: left;
+}
+
+.zhPeopleInfoConChildren {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.zhInfoInputBox {
+    height: 50px !important;
+    width: 200px !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+    border: 3px solid #488DE1 !important;
+    background-color: #313C47 !important;
+    color:white !important;
+    font-size:23px !important;
+}
+
+.zhInfoInputBoxOnFocus {
+    border: 3px solid #ff6a00 !important;
+}
+
+.zhEcnomicInfoCon {
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.zhEcnomicLabel {
+    font-size: 23px;
+    margin-left: 15px;
+}

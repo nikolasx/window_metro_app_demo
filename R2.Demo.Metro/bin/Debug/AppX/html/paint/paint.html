@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>手绘</title>
+        <link href="paint.css" rel="stylesheet" />
+        <script src="paint.js"></script>
+    </head>
+    <body>
+        <div id="paintHeader">
+            <div id="paintTitleIcon"></div>
+            <div id="paintTitle">手绘平面图及签名</div>
+        </div>
+        <div id="paintTop">
+            <div id="paintLineWidth" class="paintTool">
+                <div class="paintToolTip">画笔粗细：</div>
+                <select id="paintLineWidthSelect">
+                    <option value="1">1 像素</option>
+                    <option selected="selected" value="2">2 像素</option>
+                    <option value="3">3 像素</option>
+                    <option value="4">4 像素</option>
+                    <option value="5">5 像素</option>
+                    <option value="6">6 像素</option>
+                    <option value="7">7 像素</option>
+                    <option value="8">8 像素</option>
+                </select>
+            </div>
+            <div id="paintLineColor" class="paintTool">
+                <div class="paintToolTip">画笔颜色：</div>
+                <select id="paintLineColorSelect">
+                    <option value="#fc0303">红色</option>
+                    <option selected="selected" value="#000000">黑色</option>
+                    <option value="#0985e4">蓝色</option>
+                    <option value="#ff7e00">黄色</option>
+                    <option value="#1c7d12">绿色</option>
+                    <option value="#5104a8">紫色</option>
+                </select>
+            </div>
+            <div id="paintLineClear" class="paintTool">橡 皮</div>
+            <div id="paintClear" class="paintTool">清空画布</div>
+            <div id="paintHistory" class="paintTool">历史画布</div>
+            <div id="paintSave" class="paintTool">保存画布</div>
+        </div>
+        <div id="paintContent">
+            <canvas id="paintCanvas">
+                <div id="canvasImg" style="width:100%;height:100%;border:1px solid black;z-index:10000;"></div>
+            </canvas>
+        </div>
+        <!--弹出输入名字框-->
+    <div id="paintBackground" style="position:absolute;width:100%;height:100%;z-index:10000;background:rgba(0,0,0,0.7);left:0px;top:0px;display:none;">
+        <div style="position:absolute;left:0px;top:50%;margin-top:-125px;width:100%;height:250px;background-color:#ffffff;opacity:1;">
+            <div style="position:relative;left:30%;top:50px;width:124px;height:50px;line-height:50px;font-size:24px;color:black">画布名称：</div>
+            <input id="paintName" style="position:relative;width:300px;height:30px;color:black;left:40%;margin-top:6px;font-size:20px;/*line-height:30px;*/"placeholder="山体剖面图"/>
+            <div id="paintBtn" style="width:100px;height:40px;position:relative;left:65%;color:black;font-size:24px;background-color:#007acc;line-height:40px;text-align:center;top:60px;">确 定</div>
+        </div>
+    </div>
+    </body>
+</html>

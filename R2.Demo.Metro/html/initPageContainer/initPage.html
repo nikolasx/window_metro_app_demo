@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="../../js/libs/navigator.js"></script>
+    <link href="../../css/pageControl.css" rel="stylesheet" />
+    <script src="../../js/libs/pageZoomControl.js"></script>
+    <script src="../../js/libs/appBarHandlers.js"></script>
+    <script src="initPage.js"></script>
+</head>
+<body>
+    <div data-win-control="WinJS.UI.SemanticZoom"
+         data-win-options="{zoomFactor:0.5,initiallyZoomedOut:false}"
+         style="width: 100%; height: 100%;background-color:#171c22" id="semanticZoom">
+        <!--   用于装载所有 的大页面-->
+        <div id="view-zoomedin" style="overflow-x:hidden;width:100%;height:100%;background-color:#171c22" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:false}"></div>
+        <!--   用于装载所有 的预览页面-->
+        <div id="view-zoomedout" data-win-control="PageControl.ZoomablePages" data-win-options="{preview:true}"></div>
+    </div>
+
+    <div id="appbar" data-win-control="WinJS.UI.AppBar" data-win-options="" style="border-style:solid; border-color:white;" class="customColor">
+        <!--全地图界面的应用栏按钮-->
+        <button id="btnLocHomeMap" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'锁屏',icon:'url(images/appbarIcon/15.png)',section:'global',tooltip:'锁屏', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnYf" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'易发分区',icon:'url(images/appbarIcon/9.png)',section:'selection',tooltip:'加载易发分区图', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnFz" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'防治分区',icon:'url(images/appbarIcon/16.png)',section:'selection', tooltip:'加载防治分区图', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnDt" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'系统底图',icon:'url(images/appbarIcon/10.png)',section:'selection',tooltip:'只显示系统底图', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnFw" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'复位',icon:'url(images/appbarIcon/11.png)',section:'selection', tooltip:'地图复位', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnCj" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'测距',icon:'url(images/appbarIcon/12.png)',section:'selection', tooltip:'测距', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnCm" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'测面积',icon:'url(images/appbarIcon/13.png)',section:'selection', tooltip:'测面积', extraClass:'appbar-appedgy'}"></button>
+        <button id="btnGps" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'gps路径',icon:'url(images/appbarIcon/14.png)',section:'selection', tooltip:'gps路径', extraClass:'appbar-appedgy'}"></button>
+
+
+        <!--管理和展示界面的应用栏按钮-->
+        <button id="btnShowSbItemDetail" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'查看详情',icon:'url(images/mapMoreControls/021.png)',section:'selection',tooltip:'查看详情', extraClass:'appbar-infoShow'}"></button>
+        <hr id="btnShowSbItemSeper" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{type:'separator',section:'selection',extraClass:'appbar-infoShow'}" />
+        <button id="btnDeletSbItem" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'删除记录',icon:'delete',section:'selection',tooltip:'删除记录', extraClass:'appbar-infoShow'}"></button>
+
+        <!--其他普通界面的应用栏按钮-->
+        <button id="btnLocNormal" data-win-control="WinJS.UI.AppBarCommand" data-win-options="{label:'锁屏',icon:'url(images/mapMoreControls/unlocked.png)',section:'global',tooltip:'锁屏', extraClass:'appbar-locNormal'}"></button>
+    </div>
+</body>
+</html>

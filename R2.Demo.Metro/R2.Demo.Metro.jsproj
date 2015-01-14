@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>c34098b0-75ab-4053-94c2-0fe41a329424</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">
+    <VisualStudioVersion>11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetPlatformVersion>8.0</TargetPlatformVersion>
+    <DefaultLanguage>zh-CN</DefaultLanguage>
+    <PackageCertificateKeyFile>AppDldzDemo_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="css\appSet.css" />
+    <Content Include="css\custom-icons.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\disasterInfoDetail.css" />
+    <Content Include="css\inputInfo.css" />
+    <Content Include="css\pageControl.css" />
+    <Content Include="css\pageLayout.css" />
+    <Content Include="css\queryInfo.css" />
+    <Content Include="css\showInfo.css" />
+    <Content Include="default.html" />
+    <Content Include="html\appSet.html" />
+    <Content Include="html\appSetPreview.html" />
+    <Content Include="html\blankpage.html" />
+    <Content Include="html\compass\compass.css" />
+    <Content Include="html\compass\compass.html" />
+    <Content Include="html\compass\compass.js" />
+    <Content Include="html\disasterInfoDetail.html" />
+    <Content Include="html\disasterInfoInput.html" />
+    <Content Include="html\disasterInfoInputPreview.html" />
+    <Content Include="html\disasterInfoQuery.html" />
+    <Content Include="html\disasterInfoQueryPreview.html" />
+    <Content Include="html\disasterInfoShow.html" />
+    <Content Include="html\disasterInfoShowPreview.html" />
+    <Content Include="html\disasterInfoStatistics\disasterInfoStatistics.css" />
+    <Content Include="html\disasterInfoStatistics\disasterInfoStatistics.html" />
+    <Content Include="html\disasterInfoStatistics\disasterInfoStatistics.js" />
+    <Content Include="html\historyPaint\historyPaint.css" />
+    <Content Include="html\historyPaint\historyPaint.html" />
+    <Content Include="html\historyPaint\historyPaint.js" />
+    <Content Include="html\imageView.html" />
+    <Content Include="html\initPageContainer\initPage.css" />
+    <Content Include="html\initPageContainer\initPage.html" />
+    <Content Include="html\initPageContainer\initPage.js" />
+    <Content Include="html\mapHomePreview.html" />
+    <Content Include="html\mapHome\mapHome.css" />
+    <Content Include="html\mapHome\mapHome.html" />
+    <Content Include="html\mapHome\mapHome.js" />
+    <Content Include="html\menuNavigation.html" />
+    <Content Include="html\menuPreview.html" />
+    <Content Include="html\mobilDemo.html" />
+    <Content Include="html\paint\paint.css" />
+    <Content Include="html\paint\paint.html" />
+    <Content Include="html\paint\paint.js" />
+    <Content Include="html\singleNavgation.html" />
+    <Content Include="html\testpage2.html" />
+    <Content Include="html\tilesMenu\tilesMenu.css" />
+    <Content Include="html\tilesMenu\tilesMenu.html" />
+    <Content Include="html\tilesMenu\tilesMenu.js" />
+    <Content Include="images\05.png" />
+    <Content Include="images\09.png" />
+    <Content Include="images\11.png" />
+    <Content Include="images\15.png" />
+    <Content Include="images\16.png" />
+    <Content Include="images\17.png" />
+    <Content Include="images\22.png" />
+    <Content Include="images\appbarIcon\1-1.png" />
+    <Content Include="images\appbarIcon\1.png" />
+    <Content Include="images\appbarIcon\10-1.png" />
+    <Content Include="images\appbarIcon\10.png" />
+    <Content Include="images\appbarIcon\11-1.png" />
+    <Content Include="images\appbarIcon\11.png" />
+    <Content Include="images\appbarIcon\12-1.png" />
+    <Content Include="images\appbarIcon\12.png" />
+    <Content Include="images\appbarIcon\13-1.png" />
+    <Content Include="images\appbarIcon\13.png" />
+    <Content Include="images\appbarIcon\14-1.png" />
+    <Content Include="images\appbarIcon\14.png" />
+    <Content Include="images\appbarIcon\15-1.png" />
+    <Content Include="images\appbarIcon\15.png" />
+    <Content Include="images\appbarIcon\16-1.png" />
+    <Content Include="images\appbarIcon\16.png" />
+    <Content Include="images\appbarIcon\17.png" />
+    <Content Include="images\appbarIcon\18.png" />
+    <Content Include="images\appbarIcon\2-1.png" />
+    <Content Include="images\appbarIcon\2.png" />
+    <Content Include="images\appbarIcon\3-1.png" />
+    <Content Include="images\appbarIcon\3.png" />
+    <Content Include="images\appbarIcon\4-1.png" />
+    <Content Include="images\appbarIcon\4.png" />
+    <Content Include="images\appbarIcon\5-1.png" />
+    <Content Include="images\appbarIcon\5.png" />
+    <Content Include="images\appbarIcon\6-1.png" />
+    <Content Include="images\appbarIcon\6.png" />
+    <Content Include="images\appbarIcon\7.png" />
+    <Content Include="images\appbarIcon\8.png" />
+    <Content Include="images\appbarIcon\9-1.png" />
+    <Content Include="images\appbarIcon\9.png" />
+    <Content Include="images\back.png" />
+    <Content Include="images\bigpreview.png" />
+    <Content Include="images\blueflag.png" />
+    <Content Include="images\cameral.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\flashmark.gif" />
+    <Content Include="images\flashmark1.gif" />
+    <Content Include="images\fullMap.png" />
+    <Content Include="images\mapMoreControls\02-1.png" />
+    <Content Include="images\mapMoreControls\02.png" />
+    <Content Include="images\mapMoreControls\021.png" />
+    <Content Include="images\mapMoreControls\03-1.png" />
+    <Content Include="images\mapMoreControls\03.png" />
+    <Content Include="images\mapMoreControls\031.png" />
+    <Content Include="images\mapMoreControls\04-1.png" />
+    <Content Include="images\mapMoreControls\04.png" />
+    <Content Include="images\mapMoreControls\05.png" />
+    <Content Include="images\mapMoreControls\06.png" />
+    <Content Include="images\mapMoreControls\13.png" />
+    <Content Include="images\mapMoreControls\accept.contrast-black.png" />
+    <Content Include="images\mapMoreControls\appbar_maphome\maphome-footicon.png" />
+    <Content Include="images\mapMoreControls\locked.png" />
+    <Content Include="images\mapMoreControls\maphome-footicon.png" />
+    <Content Include="images\mapMoreControls\unlocked.png" />
+    <Content Include="images\marker-blue.png" />
+    <Content Include="images\marker-gold.png" />
+    <Content Include="images\marker-green.png" />
+    <Content Include="images\marker.png" />
+    <Content Include="images\noNetwork.png" />
+    <Content Include="images\paint.png" />
+    <Content Include="images\paintBackground.png" />
+    <Content Include="images\photoIcon.png" />
+    <Content Include="images\previewimg.png" />
+    <Content Include="images\preview\pinch_input.png" />
+    <Content Include="images\preview\pinch_sezo.png" />
+    <Content Include="images\preview\pinch_sezo1.png" />
+    <Content Include="images\preview\press_and_hold.png" />
+    <Content Include="images\preview\press_and_hold1.png" />
+    <Content Include="images\preview\rotate.png" />
+    <Content Include="images\preview\rotate1.png" />
+    <Content Include="images\preview\tap.png" />
+    <Content Include="images\preview\tap1.png" />
+    <Content Include="images\queryMap.jpg" />
+    <Content Include="images\R2TeameLogo.png" />
+    <Content Include="images\R2TeamLogoWidth.png" />
+    <Content Include="images\R2TeamSplashscreen.png" />
+    <Content Include="images\R2TeamSplashscreen1.png" />
+    <Content Include="images\redflag.png" />
+    <Content Include="images\smalllogo.png" />
+    <Content Include="images\smallpreview.png" />
+    <Content Include="images\splashscreen.png" />
+    <Content Include="images\splashscreen21.png" />
+    <Content Include="images\storelogo.png" />
+    <Content Include="images\tilesMenu\06.png" />
+    <Content Include="images\tilesMenu\07.png" />
+    <Content Include="images\tilesMenu\08.png" />
+    <Content Include="images\tilesMenu\10.png" />
+    <Content Include="images\tilesMenu\11.png" />
+    <Content Include="images\tilesMenu\12.png" />
+    <Content Include="images\tilesMenu\fzgh1.png" />
+    <Content Include="images\tilesMenu\qfjc.png" />
+    <Content Include="images\tilesMenu\qfjc1 %282%29.png" />
+    <Content Include="images\tilesMenu\qfjc1.png" />
+    <Content Include="images\tilesMenu\qftx.png" />
+    <Content Include="images\tilesMenu\sjbb.png" />
+    <Content Include="images\tilesMenu\yjdclr.png" />
+    <Content Include="images\tilesMenu\yjzj.png" />
+    <Content Include="images\tilesMenu\yjzj1.png" />
+    <Content Include="images\tilesMenu\zlgc.png" />
+    <Content Include="js\customer\appSet.js" />
+    <Content Include="js\customer\BufferMap.js" />
+    <Content Include="js\customer\data.js" />
+    <Content Include="js\customer\disasterInfoDetail.js" />
+    <Content Include="js\customer\disasterInfoInput.js" />
+    <Content Include="js\customer\disasterInfoQuery.js" />
+    <Content Include="js\customer\disasterInfoShow.js" />
+    <Content Include="js\customer\downloadWuhanMap.js" />
+    <Content Include="js\customer\helper.js" />
+    <Content Include="js\customer\imageView.js" />
+    <Content Include="js\customer\indexDB.js" />
+    <Content Include="js\customer\menuNavigation.js" />
+    <Content Include="js\customer\pageData.js" />
+    <Content Include="js\customer\singleNavgation.js" />
+    <Content Include="js\customer\tempScript.js" />
+    <Content Include="js\default.js" />
+    <Content Include="js\libs\appBarHandlers.js" />
+    <Content Include="js\libs\CheckDivBox\CheckDivBox.js" />
+    <Content Include="js\libs\CheckDivBox\img\select.png" />
+    <Content Include="js\libs\CheckDivBox\style\main.css" />
+    <Content Include="js\libs\customeDragForPinch.js" />
+    <Content Include="js\libs\customeDragPan.js" />
+    <Content Include="js\libs\global.js" />
+    <Content Include="js\libs\highcharts.js" />
+    <Content Include="js\libs\jquery-1.7.1.min.js" />
+    <Content Include="js\libs\mobile-navigation.js" />
+    <Content Include="js\libs\navigator.js" />
+    <Content Include="js\libs\OpenLayers.debug.js" />
+    <Content Include="js\libs\OpenLayers.js" />
+    <Content Include="js\libs\pageZoomControl.js" />
+    <Content Include="js\libs\R2team_addLine.js" />
+    <Content Include="js\libs\R2team_dynamicLineVector.js" />
+    <Content Include="js\libs\R2team_Measure.js" />
+    <Content Include="js\libs\TileLayer.Metro.js" />
+    <Content Include="js\libs\zdclient.js" />
+    <None Include="AppDldzDemo_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

@@ -1,0 +1,96 @@
+﻿
+#compassHeader {
+    width:500px;
+    height:90px;
+}
+#compassHeaderIcon {
+    width:11px;
+    height:17px;
+    background-image:url(../../images/05.png);
+    margin-top:45px;
+    margin-left:22px;
+    float:left;
+}
+#compassHeaderTitle {
+    height:36px;
+    width:400px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float:left;
+}
+#compassLeft {
+    width:600px;
+    height:650px;
+    position:absolute;
+    left:55px;
+    top:90px;
+    overflow:hidden;
+}
+#compassRight {
+    width:470px;
+    height:162px;
+    position:absolute;
+    left:750px;
+    top:300px;
+}
+#compassForward {
+    width:55px;
+    height:33px;
+    background:url(../../images/17.png)  no-repeat;
+    position:absolute;
+    left:329px;
+    top:10px;
+}
+#compassDeg {
+    width:160px;
+    height:50px;
+    position:absolute;
+    left:278px;
+    top:50px;
+    line-height:50px;
+    font-size:30px;
+    text-align:center;
+    color:#ff8a00;
+}
+#compassOut {
+    position:absolute;
+    top:110px;
+    left:110px;
+    width:489px;
+    height:489px;
+    background-image:url(../../images/15.png);
+}
+#compassIn {
+    position:absolute;
+    top:17px;
+    left:17px;
+    width:454px;
+    height:454px;
+    background-image:url(../../images/16.png);
+    transform:rotate(0deg);
+    transform-origin:50% 50%;
+}
+.compassLonlatTip {
+    width:170px;
+    height:47px;
+    float:left;
+    background-color:#0a63a7;
+    font-size:20px;
+    line-height:47px;
+    text-align:center;
+}
+.compassLonlat {
+    width:280px;
+    height:47px;
+    float:left;
+    background-color:#bebebe;
+    margin-left:20px;
+    font-size:20px;
+    line-height:47px;
+    text-align:center;
+    color:#000000;
+}
+.compassLonlatrow2 {
+    margin-top:17px;
+}

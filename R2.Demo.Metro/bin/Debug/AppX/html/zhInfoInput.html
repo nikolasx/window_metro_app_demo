@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../css/inputInfo.css" rel="stylesheet" />
+    <script src="../js/customer/zhInfoInput.js"></script>
+
+    <title></title>
+</head>
+<body>
+    <div class="main">
+        <div id="infoInputHead">
+            <div class="tilesMenu fragment">
+                <header aria-label="Header content" role="banner">
+                    <h2 class="titlearea win-type-ellipsis">
+                        <img src="../../images/05.png" /><span class="pagetitle">灾情速报录入</span>
+                    </h2>
+                </header>
+            </div>
+        </div>
+        <div id="infoInputContainer">
+            <div class="left">
+                <div class="inputInfoTile">基本信息</div>
+                <div id="infoItemContainer">
+                    <ul>
+                        <li class="inputInfoItem selectInfoItem needMoreInfo" id="zhPosition">
+                            <div class="infoItems">
+                                <div class="infoItemsName">灾险情地点</div>
+                                <div class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem" id="zhTime">
+                            <div class="infoItems">
+                                <div class="infoItemsName">发生时间</div>
+                                <div id="zhTimeShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem needMoreInfo" id="zhType">
+                            <div class="infoItems">
+                                <div class="infoItemsName">灾害类型</div>
+                                <div id="zhTypeShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem needMoreInfo" id="zhGrade">
+                            <div class="infoItems">
+                                <div class="infoItemsName">灾害等级</div>
+                                <div id="zhGradeShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem needMoreInfo" id="zhScale">
+                            <div class="infoItems">
+                                <div class="infoItemsName">灾害规模</div>
+                                <div id="zhScaleShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem" id="zhPeople">
+                            <div class="infoItems">
+                                <div class="infoItemsName">伤亡人数</div>
+                                <div id="zhPeopleShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                        <li class="inputInfoItem" id="zhEcnomic">
+                            <div class="infoItems">
+                                <div class="infoItemsName">直接经济损失（万元）</div>
+                                <div id="zhEcnomicShort" class="infoItemsImg"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="inputInfoTile">详情信息</div>
+                <div id="zhinfoInputContainer"></div>
+            </div>
+            <div id="infoInputBottom">
+                <div id="infoInputOK" class="infoInputButton">上 传</div>
+                <div id="infoInputReset" class="infoInputButton">重 置</div>
+            </div>
+
+            <div id="zqsbInputMsgBackground">
+            </div>
+            <div id="zqsbInputMsgShowBox">
+                <div id="zqsbInfoBoxPage1" class="zqsbInfoBoxPage">
+                    <div id="zqsbInfoBoxP1TiSHI">是否上传该条记录？（确定-上传 | 取消-返回页面修改）</div>
+                    <div id="zqsbInfoBoxP1OK" class="zqsbInfoBoxButton">确 定</div>
+                    <div id="zqsbInfoBoxP1CANCEL" class="zqsbInfoBoxButton">取 消</div>
+                </div>
+                <div id="zqsbInfoBoxPage2" class="zqsbInfoBoxPage">
+                    <div id="zqsbInfoBoxP2TiSHI">上传</div>
+                    <div id="zqsbInfoBoxP2CLOSE" class="zqsbInfoBoxButton">关 闭</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,119 @@
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bin\Debug\resources.pri
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\priconfig.xml
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\layout.resfiles
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\resources.resfiles
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\pri.resfiles
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+D:\code\Win8开发\js\R2.Demo.Metro\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bin\Debug\resources.pri
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\priconfig.xml
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\layout.resfiles
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\resources.resfiles
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\pri.resfiles
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bin\Debug\resources.pri
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\priconfig.xml
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\layout.resfiles
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\resources.resfiles
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\pri.resfiles
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+D:\code\Win8开发\js\新建文件夹\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+D:\code\Win8开发\js\新建文件夹 (2)\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\r2_7\R2.Demo.Metro\bin\Debug\resources.pri
+F:\WIN8\r2_7\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+F:\WIN8\r2_7\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\priconfig.xml
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\layout.resfiles
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\resources.resfiles
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\pri.resfiles
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+F:\WIN8\r2_7\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bin\Debug\resources.pri
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\priconfig.xml
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\layout.resfiles
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\resources.resfiles
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\pri.resfiles
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bin\Debug\resources.pri
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\priconfig.xml
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\layout.resfiles
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\resources.resfiles
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\pri.resfiles
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_7_1\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bin\Debug\resources.pri
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\priconfig.xml
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\layout.resfiles
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\resources.resfiles
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\pri.resfiles
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+F:\WIN8\win8_r2_team_new\r2_9\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\resources.pri
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\priconfig.xml
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\layout.resfiles
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\resources.resfiles
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\pri.resfiles
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\LanguageQualifiers.txt
+F:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\resources.pri
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\AppxManifest.xml
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bin\Debug\R2.Demo.Metro.build.appxrecipe
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\priconfig.xml
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\priconfig.xml.intermediate
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\layout.resfiles
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\layout.resfiles.intermediate
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\resources.resfiles
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\resources.resfiles.intermediate
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\pri.resfiles
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\pri.resfiles.intermediate
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\qualifiers.txt
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\qualifiers.txt.intermediate
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+G:\WIN8\win8_r2_team_new\win8_1.0\R2.Demo.Metro\bld\Debug\ProjectArchitectures.txt

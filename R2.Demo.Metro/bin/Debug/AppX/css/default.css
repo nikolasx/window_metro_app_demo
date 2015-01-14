@@ -1,0 +1,76 @@
+﻿body {
+    font-family:"微软雅黑";
+    font-size:15px
+}
+ul {
+    margin:0;
+    padding:0;
+}
+ul li {
+    list-style:none;
+}
+.main {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+
+.pagetitle {
+    font-size:36px;
+    margin-left:28px; 
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}
+
+/* 应用栏的样式 */
+.win-appbar.customColor {
+    background-color: #0098AB;
+}
+.win-appbar.customColor button:active .win-commandring {
+    border-color: rgb(90, 200, 90);
+}
+.win-appbar.customColor button:hover .win-commandring {
+    background-color: rgba(90, 200, 90, 0.13);
+    border-color: rgb(90, 200, 90);
+}
+
+/*确定删除*/
+.win-flyout div {
+    margin-left:10px;
+}
+.win-flyout:not(.win-menu) button,
+.win-flyout:not(.win-menu) input[type="button"]{
+    margin-top: 16px;
+    margin-right: 20px;
+    float: right;
+    background-color:#0098AB;
+}
+#initPage {
+    position:absolute;
+    top:0px;
+    left:0px;
+    background-color:black;
+}
+#secondClassPages {
+     position:absolute;
+     top:0px;
+     left:0px;
+    background-color:black;
+}
+/*一二级页面导航分离的DIV覆盖*/
+.levelLow {
+    z-index:2000;
+}
+.levelHigh {
+    z-index:3000;
+}

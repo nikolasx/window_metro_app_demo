@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../css/showInfo.css" rel="stylesheet" />
+    <script src="../js/libs/jquery-1.7.1.min.js"></script>
+    <script src="../js/customer/indexDB.js"></script>
+    <script src="../js/libs/navigator.js"></script>
+    <script src="../js/customer/zhInfoShow.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="main">
+        <div class="showInfDiv">
+            <div id="showInfHead">
+                <div class="tilesMenu fragment">
+                    <header aria-label="Header content" role="banner">
+                        <h2 class="titlearea win-type-ellipsis">
+                            <img src="../../images/05.png" /><span class="pagetitle">灾情速报管理</span>
+                        </h2>
+                    </header>
+                </div>
+            </div>
+            <div id="showInfSearch">
+                <span>检&nbsp;&nbsp;索&nbsp;&nbsp;</span>
+                <input type="text" id="inputInfo" value="关键字：区、街道、灾害类型、灾害规模" />
+                <input type="button" id="reloadZhRecords" value="刷新记录" />
+            </div>
+            <div class="showInfoContainer">
+                <div id="infoTemplateItem" data-win-control="WinJS.Binding.Template">
+                    <div data-win-bind="style.background: color" class="infoTemplateItem">
+                        <div class="infoItemsHeadDiv">
+                            <div class="infoItemsLocation_date infoItemsLocation" data-win-bind="innerText: area"></div>
+                            <div class="infoItemsLocation_date infoItemsLocationStr" data-win-bind="innerText: street"></div>
+                            <div class="infoItemsLocation_date infoItemsDate" data-win-bind="innerText: objId"></div>
+                            <div class="infoItemsLocation_date infoItemsObj" style="display: none" data-win-bind="innerText: objId"></div>
+                        </div>
+                        <div class="seperateLine"></div>
+                        <div class="infoItemsBoDiv">
+                            <div class="infoItemContentDiv">
+                                <div class="infoItemsDetail">
+                                    <label>灾害类型：</label>
+                                    <label data-win-bind="innerText: disType"></label>
+                                </div>
+                                <div class="infoItemsDetail">
+                                    <label>灾害规模：</label>
+                                    <label data-win-bind="innerText: guimo"></label>
+                                </div>
+                            </div>
+                            <div class="infoItemContentDiv">
+                                <div class="infoItemsDetail">
+                                    <label>灾害等级：</label>
+                                    <label data-win-bind="innerText: level"></label>
+                                </div>
+                                <div class="infoItemsDetail">
+                                    <label>伤亡人数：</label>
+                                    <label data-win-bind="innerText: pop"></label>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Note the 'selectionMode' property-->
+                <div id="infoShowListView"
+                    data-win-control="WinJS.UI.ListView"
+                    data-win-options="{ 
+                    itemTemplate: select('#infoTemplateItem'), 
+                    selectionMode: 'multi', 
+                    tapBehavior: 'toggleSelect' }">
+                </div>
+            </div>
+        </div>
+
+        <!-- Full screen container for ListView -->
+        <div id="scenarioFullscreen">
+            <div id="infodetail_top">
+                <div class="infodetail_top_icon" id="infodetailBackBtn"></div>
+                <div class="infodetail_top_title">灾情速报详情</div>
+            </div>
+            <div id="infodetail_content">
+                <div id="infodetail_content_title">详情信息</div>
+                <div id="content_body">
+                    <div class="content_rows">
+                        <div class="rows_left">灾险情地点</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">发生时间</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">灾害类型</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">灾害等级</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">灾害规模</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">伤亡人数</div>
+                        <div class="rows_right"></div>
+                    </div>
+                    <div class="content_rows">
+                        <div class="rows_left">直接经济损失</div>
+                        <div class="rows_right"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--            </section>-->
+        </div>
+
+    </div>
+</body>
+</html>
+

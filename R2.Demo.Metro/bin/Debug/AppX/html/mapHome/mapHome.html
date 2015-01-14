@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <title>mapHome</title>
+
+    <!-- WinJS 引用 -->
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+
+    <link href="mapHome.css" rel="stylesheet" />
+    <link href="../../css/custom-icons.css" rel="stylesheet" />
+
+    <script src="../../js/libs/jquery-1.7.1.min.js"></script>
+    <script src="../../js/libs/OpenLayers.js"></script>
+    <!--<script src="../../js/libs/OpenLayers.debug.js"></script>-->
+    <script src="../../js/libs/zdclient.js"></script>
+    <script src="../../js/libs/TileLayer.Metro.js"></script>
+    <script src="../../js/libs/customeDragForPinch.js"></script>
+    <script src="../../js/libs/customeDragPan.js"></script>
+    <script src="../../js/libs/R2team_Measure.js"></script>
+    <script src="../../js/libs/R2team_dynamicLineVector.js"></script>
+    <script src="mapHome.js"></script>
+</head>
+<body>
+    <!--主要内容-->
+    <div id="fullMapContainer" class="main">
+        <!--<div id="mapbox"><div id="map"></div></div>-->
+        <div id="map"></div>
+        <div id="logo">
+<!--            <label id="dldz">大连地质</label>
+            <label id="zhqxyj">灾害气象预警</label>-->
+            <label id="dldz">灾害速报</label>
+            <!--<label id="Label2">灾害气象预警</label>-->
+        </div>
+        <div id="moreBtn"></div>
+<!--        <div id="moreControlDiv">
+            <ul>
+                <li class="moreControlLi">
+                    <div class="controlItemImg controlItemSelect" id="fafqItemImg"></div>
+                    <div class="controlItemName">防治分区图</div>
+                </li>
+                <li class="moreControlLi">
+                    <div class="controlItemImg" id="yffqItemImg" ></div>
+                    <div class="controlItemName">易发分区图</div>
+                </li>
+                <li class="moreControlLi">
+                    <div class="controlItemImg" id="xtdtItemImg"></div>
+                    <div class="controlItemName" style="color:#F4F4F5;">系统底图</div>
+                </li>
+                 <li class="moreControlLi">
+                    <div class="controlItemImg" id="fuweiItemImg"></div>
+                    <div class="controlItemName" style="color:#F4F4F5;">复位</div>
+                </li>
+            </ul>
+            <div id="lockState"></div>
+        </div>-->
+    </div>
+    <div id="lockDiv">
+        <!--<img src="../../images/logo.png" />-->
+    </div>
+    <div id="roadSelect">
+        <div class="roadbox">路径1</div>
+        <div class="roadboxlock1"></div>
+        <div class="roadbox">路径2</div>
+        <div class="roadboxlock2"></div>
+        <div class="roadbox">路径3</div>
+        <div class="roadboxlock3"></div>
+    </div>
+</body>
+</html>
+

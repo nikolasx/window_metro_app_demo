@@ -1,0 +1,125 @@
+﻿/*详细信息的具体内容*/
+#infodetail_top {
+    width:100%;
+    height:90px;
+}
+.infodetail_top_icon {
+    width:11px;
+    height:17px;
+    background-image:url(../images/05.png);
+    margin-top:45px;
+    margin-left:22px;
+    float:left;
+}
+.infodetail_top_title {
+    height:36px;
+    width:300px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float:left;
+}
+#infodetail_content {
+    position:absolute;
+    top:90px;
+    bottom:0px;
+    width:100%;
+}
+#infodetail_content_title {
+    font-size:24px;
+    width:100px;
+    margin-left:55px;
+    height:55px;
+}
+#content_body {
+    position:absolute;
+    top:55px;
+    left:55px;
+    width:1245px;
+    height:485px;
+}
+#infoDetailLeft {
+    width:510px;
+    height:100%;
+    float:left;
+}
+#infoDetailLeft_box {
+    width:510px;
+    height:355px;
+    background-color:#313c47;
+}
+#infoDetailLeft_title {
+    width:510px;
+    height:55px;
+    font-size:24px;
+    line-height:55px;
+    text-align:center;
+}
+#infoDetailLeft_img {
+    width:498px;
+    height:295px;
+    margin-left:6px;
+}
+#infoDetailLeft_prebox {
+    width:510px;
+    height:115px;
+    margin-top:15px;
+    overflow-y:hidden;
+    overflow-x:auto;
+    
+}
+#infoDetailLeft_preimgBox {
+    height:115px;
+    width:510px;
+}
+.infoDetailLeft_prediv {
+    width:149px;
+    height:111px;
+    float:left;
+    border:2px solid #313c47;
+    margin-left:25px;
+}
+.infoDetailLeft_prediv1 {
+    margin-left:0px;
+}
+.infoDetailLeft_preimg {
+    width:149px;
+    height:111px;
+}
+#infoDetailRight {
+    width:710px;
+    height:100%;
+    float:left;
+}
+.infoDetailRows {
+    width:710px;
+    height:49px;
+    margin-left:25px;
+    background-color:#313c47;
+    border-bottom:1px solid #272f38;
+    margin-bottom:22px;
+}
+.infoDetailRows_title {
+    height:48px;
+    width:205px;
+    float:left;
+    text-indent:40px;
+    line-height:48px;
+    font-size:24px;
+}
+.infoDetailRows_content {
+    height:48px;
+    width:500px;
+    float:left;
+}
+    .infoDetailRows_content span {
+        height:48px;
+        display:block;
+        float:left;
+        font-size:24px;
+        line-height:48px;
+        padding-left:8px;
+        padding-right:20px;
+        color:#00a8ff;
+    }
+

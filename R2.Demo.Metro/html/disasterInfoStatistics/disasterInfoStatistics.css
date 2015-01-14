@@ -1,0 +1,154 @@
+﻿/*body {
+    font-family:"微软雅黑";
+    font-size:15px;
+}*/
+#fullScreen {
+    width:auto;
+    height:100%;
+    position:relative;
+    overflow:hidden;
+}
+#statis_head {
+    height:140px;
+    width:800px;
+}
+#statisback {
+    width:500px;
+    height:90px;
+}
+#statisbackicon {
+    width: 11px;
+    height: 17px;
+    background-image: url('../../images/05.png');
+    margin-top: 45px;
+    margin-left: 22px;
+    float: left;
+}
+#statisbackword {
+    height:36px;
+    width:300px;
+    font-size:36px;
+    margin-top:27px;
+    margin-left:22px;
+    float:left;
+}
+#statis_head_title {
+    height:50px;
+    width:600px;
+    margin-left:55px;
+}
+.statisheadtitle {
+    float:left;
+    width:160px;
+    height:50px;
+    line-height:50px;
+    font-size:24px;
+    color:#8F9090;
+}
+.statisheadtitle_hover {
+    color:#f28f02;
+}
+#statiscontainer {
+     position:absolute;
+    top:150px;
+    bottom:20px;
+    left:0px;
+    right:0px;
+    overflow:auto;
+}
+#statiscontent {
+   width:4098px;
+   height:100%;
+}
+#statiscolumn {
+    width:1250px;
+    height:100%;
+    margin-left:55px;
+    float:left;
+}
+#statismoon {
+    width:1250px;
+    height:90%;
+    margin-left:110px;
+    float:left;
+}
+#statispie {
+    margin-top:40px;
+    width:550px;
+    height:90%;
+    float:left;
+}
+#statispieList {
+    width:300px;
+    height:auto;
+    margin-top:50px;
+    float:left;
+}
+    #statispieList > li {
+        width:300px;
+        height:55px;
+        margin-bottom:15px;
+        list-style:none;
+        background:url(../../images/22.png) no-repeat;
+    }
+#statispieBox {
+    width:350px;
+    height:210px;
+    float:left;
+    margin-top:120px;
+    margin-left:30px;
+    background-color:#1c2835;
+}
+.statisPieStreetBox {
+    width:160px;
+    height:30px;
+    margin-left:10px;
+    margin-top:10px;
+    float:left;
+}
+.statisPieStreetName {
+    width:100px;
+    height:30px;
+    float:left;
+    text-align:center;
+    line-height:30px;
+    letter-spacing:1px;
+}
+.statisPieStreetCount {
+    width:60px;
+    height:30px;
+    float:left;
+    text-align:center;
+    line-height:30px;
+    letter-spacing:1px;
+    color:#c66d0d;
+}
+.statisLidisClass {
+    width:145px;
+    height:55px;
+    float:left;
+    font-size:18px;
+    line-height:55px;
+    text-align:center;
+    letter-spacing:3px;
+}
+.statisLidisCount {
+    width:125px;
+    height:55px;
+    float:left;
+    font-size:16px;
+    line-height:55px;
+    text-align:center;
+    letter-spacing:2px;
+}
+#statisbar {
+    width:1200px;
+    height:100%;
+    margin-left:100px;
+    float:left;
+}
+/*饼图控制*/
+.highcharts-legend {
+    display:none;
+}
+    

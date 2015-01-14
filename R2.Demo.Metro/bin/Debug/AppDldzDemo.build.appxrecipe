@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ZD</Machine>
+    <WindowsUser>webgis</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\appSet.css">
+      <PackagePath>css\appSet.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\custom-icons.css">
+      <PackagePath>css\custom-icons.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\inputInfo.css">
+      <PackagePath>css\inputInfo.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\pageControl.css">
+      <PackagePath>css\pageControl.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\pageLayout.css">
+      <PackagePath>css\pageLayout.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\queryInfo.css">
+      <PackagePath>css\queryInfo.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\showInfo.css">
+      <PackagePath>css\showInfo.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\mapHome\mapHome.css">
+      <PackagePath>html\mapHome\mapHome.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\tilesMenu\tilesMenu.css">
+      <PackagePath>html\tilesMenu\tilesMenu.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\CheckDivBox\style\main.css">
+      <PackagePath>js\libs\CheckDivBox\style\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\appSet.html">
+      <PackagePath>html\appSet.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\appSetPreview.html">
+      <PackagePath>html\appSetPreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\mapHomePreview.html">
+      <PackagePath>html\mapHomePreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\mapHome\mapHome.html">
+      <PackagePath>html\mapHome\mapHome.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\menuPreview.html">
+      <PackagePath>html\menuPreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\mobilDemo.html">
+      <PackagePath>html\mobilDemo.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\tilesMenu\tilesMenu.html">
+      <PackagePath>html\tilesMenu\tilesMenu.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoInput.html">
+      <PackagePath>html\zhInfoInput.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoInputPreview.html">
+      <PackagePath>html\zhInfoInputPreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoQuery.html">
+      <PackagePath>html\zhInfoQuery.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoQueryPreview.html">
+      <PackagePath>html\zhInfoQueryPreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoShow.html">
+      <PackagePath>html\zhInfoShow.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\zhInfoShowPreview.html">
+      <PackagePath>html\zhInfoShowPreview.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\mapHome\mapHome.js">
+      <PackagePath>html\mapHome\mapHome.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\html\tilesMenu\tilesMenu.js">
+      <PackagePath>html\tilesMenu\tilesMenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\appbarsampleutils.js">
+      <PackagePath>js\customer\appbarsampleutils.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\appSet.js">
+      <PackagePath>js\customer\appSet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\BufferMap.js">
+      <PackagePath>js\customer\BufferMap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\helper.js">
+      <PackagePath>js\customer\helper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\pageData.js">
+      <PackagePath>js\customer\pageData.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\script.js">
+      <PackagePath>js\customer\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\zhInfoInput.js">
+      <PackagePath>js\customer\zhInfoInput.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\customer\zhInfoQuery.js">
+      <PackagePath>js\customer\zhInfoQuery.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\appBarHandlers.js">
+      <PackagePath>js\libs\appBarHandlers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\CheckDivBox\CheckDivBox.js">
+      <PackagePath>js\libs\CheckDivBox\CheckDivBox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\customeDragForPinch.js">
+      <PackagePath>js\libs\customeDragForPinch.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\customeDragPan.js">
+      <PackagePath>js\libs\customeDragPan.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\jquery-1.7.1.min.js">
+      <PackagePath>js\libs\jquery-1.7.1.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\mobile-navigation.js">
+      <PackagePath>js\libs\mobile-navigation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\OpenLayers.debug.js">
+      <PackagePath>js\libs\OpenLayers.debug.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\OpenLayers.js">
+      <PackagePath>js\libs\OpenLayers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\pageZoomControl.js">
+      <PackagePath>js\libs\pageZoomControl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\TileLayer.Metro.js">
+      <PackagePath>js\libs\TileLayer.Metro.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\zdclient.js">
+      <PackagePath>js\libs\zdclient.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\zoomAnimation.js">
+      <PackagePath>js\libs\zoomAnimation.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\05.png">
+      <PackagePath>images\05.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\09.png">
+      <PackagePath>images\09.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\02-1.png">
+      <PackagePath>images\mapMoreControls\02-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\02.png">
+      <PackagePath>images\mapMoreControls\02.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\03-1.png">
+      <PackagePath>images\mapMoreControls\03-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\03.png">
+      <PackagePath>images\mapMoreControls\03.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\04-1.png">
+      <PackagePath>images\mapMoreControls\04-1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\04.png">
+      <PackagePath>images\mapMoreControls\04.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\05.png">
+      <PackagePath>images\mapMoreControls\05.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\06.png">
+      <PackagePath>images\mapMoreControls\06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\mapMoreControls\13.png">
+      <PackagePath>images\mapMoreControls\13.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\preview\pinch_sezo.png">
+      <PackagePath>images\preview\pinch_sezo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\preview\press_and_hold.png">
+      <PackagePath>images\preview\press_and_hold.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\preview\rotate.png">
+      <PackagePath>images\preview\rotate.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\preview\tap.png">
+      <PackagePath>images\preview\tap.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\splashscreen1.png">
+      <PackagePath>images\splashscreen1.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\06.png">
+      <PackagePath>images\tilesMenu\06.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\07.png">
+      <PackagePath>images\tilesMenu\07.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\08.png">
+      <PackagePath>images\tilesMenu\08.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\10.png">
+      <PackagePath>images\tilesMenu\10.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\11.png">
+      <PackagePath>images\tilesMenu\11.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\12.png">
+      <PackagePath>images\tilesMenu\12.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\fzgh1.png">
+      <PackagePath>images\tilesMenu\fzgh1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\qfjc.png">
+      <PackagePath>images\tilesMenu\qfjc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\qftx.png">
+      <PackagePath>images\tilesMenu\qftx.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\sjbb.png">
+      <PackagePath>images\tilesMenu\sjbb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\yjdclr.png">
+      <PackagePath>images\tilesMenu\yjdclr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\yjzj.png">
+      <PackagePath>images\tilesMenu\yjzj.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\images\tilesMenu\zlgc.png">
+      <PackagePath>images\tilesMenu\zlgc.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\js\libs\CheckDivBox\img\select.png">
+      <PackagePath>js\libs\CheckDivBox\img\select.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\webgis\Desktop\新建文件夹 %282%29\Code\AppDldzDemo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\">
+      <Name>Microsoft.WinJS.1.0</Name>
+      <Version>1.0.8514.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.1.0, MinVersion=1.0.8514.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.WinJS.1.0\1.0\Microsoft.WinJS.1.0.appx</AppxLocation>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

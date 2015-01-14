@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title></title>
+        <link href="disasterInfoStatistics.css" rel="stylesheet" />
+        <script src="../../js/libs/jquery-1.7.1.min.js"></script>
+        <script src="../../js/libs/highcharts.js"></script>
+        <script src="disasterInfoStatistics.js"></script>
+    </head>
+    <body>
+        <div id="fullScreen">
+            <!--统计页面头部-->
+            <div id="statis_head">
+                <div id="statisback">
+                    <div id="statisbackicon"></div>
+                    <div id="statisbackword">查询统计</div>
+                </div>
+                <div id="statis_head_title">
+                    <div class="statisheadtitle">柱状图统计</div>
+                    <div class="statisheadtitle">饼图统计</div>
+                    <div class="statisheadtitle">条形图统计</div>
+                </div>
+            </div>
+            <!--统计图-->
+            <div id="statiscontainer">
+            <div id="statiscontent">
+                <div id="statiscolumn"></div>
+                <div id="statismoon">
+                    <div id="statispie"></div>
+                    <!--灾害类型列表-->
+                    <ul id="statispieList">
+                            <li><div class="statisLidisClass">崩&nbsp;&nbsp;&nbsp;&nbsp;塌</div><div class="statisLidisCount">20%</div></li>
+                            <li><div class="statisLidisClass">滑&nbsp;&nbsp;&nbsp;&nbsp;坡</div><div class="statisLidisCount">30%</div></li>
+                            <li><div class="statisLidisClass">泥&nbsp;石&nbsp;流</div><div class="statisLidisCount">10%</div></li>
+                            <li><div class="statisLidisClass">地&nbsp;裂&nbsp;缝</div><div class="statisLidisCount">15%</div></li>
+                            <li><div class="statisLidisClass">危险斜坡</div><div class="statisLidisCount">40%</div></li>
+                            <li><div class="statisLidisClass">地面塌陷</div><div class="statisLidisCount">42%</div></li>
+                            <li><div class="statisLidisClass">地面沉降</div><div class="statisLidisCount">20%</div></li>
+                    </ul>
+                    <div id="statispieBox">
+                        <div class="statisPieStreetBox"><div class="statisPieStreetName">甘井子街道</div><div class="statisPieStreetCount">0处</div></div><div class="statisPieStreetBox"><div class="statisPieStreetName">南关岭街道</div><div class="statisPieStreetCount">0处</div></div>
+                        <div class="statisPieStreetBox"><div class="statisPieStreetName">机 场 街 道</div><div class="statisPieStreetCount">0处</div></div><div class="statisPieStreetBox"><div class="statisPieStreetName">红 旗 街 道</div><div class="statisPieStreetCount">0处</div></div>
+                        <div class="statisPieStreetBox"><div class="statisPieStreetName">革镇堡街道</div><div class="statisPieStreetCount">0处</div></div><div class="statisPieStreetBox"><div class="statisPieStreetName">营城子街道</div><div class="statisPieStreetCount">0处</div></div>
+                        <div class="statisPieStreetBox"><div class="statisPieStreetName">兴 华 街 道</div><div class="statisPieStreetCount">0处</div></div><div class="statisPieStreetBox"><div class="statisPieStreetName">泉 水 街 道</div><div class="statisPieStreetCount">0处</div></div>
+                        <div class="statisPieStreetBox"><div class="statisPieStreetName">辛寨子街道</div><div class="statisPieStreetCount">0处</div></div><div class="statisPieStreetBox"><div class="statisPieStreetName">周水子街道</div><div class="statisPieStreetCount">0处</div></div>
+                    </div>
+                </div>
+                <div id="statisbar"></div>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="../js/libs/jquery-1.7.1.min.js"></script>
+    <script src="../js/customer/indexDB.js"></script>
+    <script src="../js/customer/appSet.js"></script>
+    <script src="../js/customer/BufferMap.js"></script>
+    <script src="../js/customer/helper.js"></script>
+    <link href="../css/appSet.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <div class="main" id="appSetContainer">
+        <div id="appSet_left">
+            <div id="appSet_left_header">
+                <div class="tilesMenu fragment">
+                    <header aria-label="Header content" role="banner">
+                        <h2 class="titlearea win-type-ellipsis">
+                            <!--<img src="../../images/05.png" />-->
+                            <span class="pagetitle">系统设置</span>
+                        </h2>
+                    </header>
+                </div>
+            </div>
+            <div id="appSet_left_selection">
+            </div>
+        </div>
+        <div id="appSet_right"></div>
+        <div id="cover"></div>
+        <div id="message"></div>
+        <div id="cover2"></div>
+        <div style="-ms-grid-row: 2; -ms-grid-column: 2;" id="schedule">
+            <progress value="0" max="100" id="myprogress" style="width: 510px;"></progress>
+            <span><label>&nbsp;&nbsp;已下载</label><label id="mapDownLoadCount">0</label>%</span>
+        </div>
+        <div id="dbName"></div>
+    </div>
+</body>
+</html>
+

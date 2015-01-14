@@ -1,0 +1,180 @@
+﻿body {
+    font-family: "微软雅黑";
+    font-size: 15px;
+}
+
+#fullMapContainer {
+    width: 100%;
+    height: 100%;
+}
+#roadSelect {
+    position:relative;
+    width:160px;
+    height:auto;
+    border:1px solid #cccbed;
+    left:30px;
+    top:-300px;
+    display:none;
+    z-index:5000;
+}
+.roadbox {
+    width:158px;
+    height:48px;
+    border:1px solid #cccbed;
+    background-color:#0098ab;
+    font-size:20px;
+    text-align:center;
+    line-height:48px;
+    color:#fff;
+}
+.roadboxlock1 {
+    position:absolute;
+    z-index:5000;
+    top:0px;
+    left:0px;
+    width:158px;
+    height:48px;
+    border:1px solid #cccbed;
+    background-color:#6480af;
+    display:none;
+}
+.roadboxlock2 {
+    position:absolute;
+    z-index:5000;
+    top:50px;
+    left:0px;
+    width:158px;
+    height:48px;
+    border:1px solid #cccbed;
+    background-color:#6480af;
+    display:none;
+}
+.roadboxlock3 {
+    position:absolute;
+    z-index:5000;
+    top:100px;
+    left:0px;
+    width:158px;
+    height:48px;
+    border:1px solid #cccbed;
+    background-color:#6480af;
+    display:none;
+}
+#mapbox {
+    position:absolute;
+    top:0px;
+    left:0;
+    width:1366px;
+    height:768px;
+    overflow:hidden;
+}
+#map {
+    width:100%;
+    height:100%;
+    /*transform: perspective(658px) rotateX(57deg);*/
+    /*-ms-transform: skewX(30deg,20deg);*/ /* IE 9 */
+    /*-moz-transform: skew(30deg,20deg);*/ /* Firefox */
+    /*-webkit-transform: skew(30deg,20deg);*/ /* Safari and Chrome */
+    /*-o-transform: skew(30deg,20deg);*/ /* Opera */
+}
+
+#logo {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 3000;
+    color: #444899;
+    font-weight: 700;
+}
+
+#dldz {
+    font-size: 25px;
+}
+
+#zhqxyj {
+    margin-left: 21px;
+}
+
+#lockDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    height: 100%;
+    width:100%;
+    background-color: #cccbed;
+    opacity: 0;
+    visibility: visible;
+}
+
+/*底部的控制按钮*/
+#moreBtn {
+    width: 45px;
+    height: 15px;
+    position: relative;
+    bottom: 50px;
+    background: url(../../images/mapMoreControls/13.png) 0 0 no-repeat;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+#moreControlDiv {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    background-color: black;
+    z-index: 1000;
+}
+
+#moreControlDiv ul {
+}
+
+#moreControlDiv ul li {
+    float: left;
+    width: 170px;
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#moreControlDiv ul li div {
+    float: left;
+    height: 35px;
+}
+
+.controlItemImg {
+    width: 35px;
+    margin-top: 12px;
+}
+
+.controlItemName {
+    font-size: 20px;
+    width: 130px;
+    line-height: 55px;
+    margin-left: 5px;
+    color: #7E8184;
+}
+
+
+#lockState {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    background: url(../../images/mapMoreControls/05.png) 0 0 no-repeat;
+}
+
+
+/*图层的渐变效果，IE9没有效果*/
+.olLayerGrid .olTileImage {
+    -webkit-transition: opacity 0.31s linear;
+    -moz-transition: opacity 0.4s linear;
+    -o-transition: opacity 0.4s linear;
+    transition: opacity 0.31s linear;
+}
+
+
